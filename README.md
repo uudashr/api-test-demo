@@ -19,7 +19,7 @@ npm init -y
 npm install tape axios --save-dev
 ```
 
-This will install `tape` test framework and `axios` for http client.
+This will install [tape](https://www.npmjs.com/package/tape) test framework and [axios](https://www.npmjs.com/package/axios) for http client.
 
 ### 3. Write test code
 
