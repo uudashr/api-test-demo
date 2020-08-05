@@ -66,6 +66,15 @@ Run from command line
 npm test
 ```
 
+## Checking out this project
+
+```
+git clone https://github.com/uudashr/api-test-demo.git
+cd api-test-demo
+npm install
+npm test
+```
+
 ## Reference
 1. Test Anything Protocol https://testanything.org/
 2. tape https://github.com/substack/tape
