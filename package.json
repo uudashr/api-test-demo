@@ -1,0 +1,20 @@
+{
+  "name": "api-test-demo",
+  "version": "1.0.0",
+  "description": "API Test (demo)",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape *.test.js"
+  },
+  "keywords": [
+    "api",
+    "test",
+    "demo"
+  ],
+  "author": "Nuruddin Ashr",
+  "license": "ISC",
+  "devDependencies": {
+    "axios": "^0.19.2",
+    "tape": "^5.0.1"
+  }
+}
