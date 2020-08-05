@@ -11,6 +11,11 @@
     "test",
     "demo"
   ],
+  "homepage": "https://github.com/uudashr/api-test-demo",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/uudashr/api-test-demo.git"
+  },
   "author": "Nuruddin Ashr",
   "license": "ISC",
   "devDependencies": {
