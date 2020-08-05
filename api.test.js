@@ -12,7 +12,7 @@ test('HTTP Get', async (t) => {
     t.match(res.headers['content-type'], /json/, 'Content-Type is application/json');
 });
 
-test.skip('HTTP Methods (nested)', (t) => {
+test('HTTP Methods (nested)', (t) => {
 
     t.test('Get', async (t) => {
         const res = await axios.get('/get', {
@@ -52,7 +52,7 @@ test.skip('HTTP Methods (nested)', (t) => {
     
 });
 
-test.skip('HTTP Methods (nested-loop/dynamic test cases)', (t) => {
+test('HTTP Methods (nested-loop/dynamic test cases)', (t) => {
     const testCases = [
         { name: 'Get', method: 'GET', url: '/get', expectStatus: 200 },
         { name: 'Post', method: 'POST', url: '/post', expectStatus: 200 }
