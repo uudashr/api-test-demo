@@ -1,7 +1,7 @@
 {
   "name": "api-test-demo",
   "version": "1.0.0",
-  "description": "API Test (demo)",
+  "description": "API test demo",
   "main": "index.js",
   "scripts": {
     "test": "tape *.test.js"
